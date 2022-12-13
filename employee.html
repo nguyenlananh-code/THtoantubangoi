@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> viết chương trình nhập vào giá trị cho chuỗi messsage</title>
+</head>
+
+<body>
+
+<script>
+  let login = prompt("Enter");
+  let message = (login == 'Employee')?
+      'hello':
+      (login == 'Director')?
+          'Greetings':
+          (login == '')?
+              'No login':
+              "";
+  alert(message);
+</script>
+</body>
+</html>
